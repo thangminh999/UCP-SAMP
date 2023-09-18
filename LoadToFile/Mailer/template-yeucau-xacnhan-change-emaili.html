@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Email Template Base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+  /**
+   * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
+   */
+  @media screen {
+		@font-face {
+		  font-family: 'Roboto';
+		  font-style: normal;
+		  font-weight: 400;
+		  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+		  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+		}
+		@font-face {
+		  font-family: 'Roboto';
+		  font-style: normal;
+		  font-weight: 700;
+		  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format('woff2');
+		  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+		}
+  }
+
+  /**
+   * Avoid browser level font resizing.
+   * 1. Windows Mobile
+   * 2. iOS / OSX
+   */
+  body,
+  table,
+  td,
+  a {
+    -ms-text-size-adjust: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+
+  /**
+   * Remove extra space added to tables and cells in Outlook.
+   */
+  table,
+  td {
+    mso-table-rspace: 0pt;
+    mso-table-lspace: 0pt;
+  }
+
+  /**
+   * Better fluid images in Internet Explorer.
+   */
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+
+  /**
+   * Remove blue links for iOS devices.
+   */
+  a[x-apple-data-detectors] {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /**
+   * Fix centering issues in Android 4.4.
+   */
+  div[style*="margin: 16px 0;"] {
+    margin: 0 !important;
+  }
+
+  body {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /**
+   * Collapse table borders to avoid space between cells.
+   */
+  table {
+    border-collapse: collapse !important;
+  }
+
+  a {
+    color: #1a82e2;
+  }
+
+  img {
+    height: auto;
+    line-height: 100%;
+    text-decoration: none;
+    border: 0;
+    outline: none;
+  }
+.list-inline > li {
+	display: inline;
+}
+.list-inline > li + li {
+	margin-left: 15px;
+}
+  </style>
+
+</head>
+<body style="background-color: #e9ecef;">
+
+  <!-- start preheader -->
+  <div class="preheader" style="display: none; max-width: 0; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #fff; opacity: 0;">
+    Pincode Đã Được Reset
+  </div>
+  <!-- end preheader -->
+
+  <!-- start body -->
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <!-- start logo -->
+    <tr>
+      <td align="center" bgcolor="#e9ecef">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+          <tr>
+            <td align="center" valign="top" style="padding: 36px 24px;">
+              <a href="[URL]" target="_blank" style="display: inline-block;">
+                <img src="[URL]/assets/img/logo/logo.png" alt="Logo" border="0" width="80" style="display: block; width: 200px; max-width: 200px; min-width: 200px;">
+              </a>
+            </td>
+          </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+    <!-- end logo -->
+
+    <!-- start hero -->
+    <tr>
+      <td align="center" bgcolor="#e9ecef">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+          <tr>
+            <td align="left" bgcolor="#ffffff" style="padding: 36px 24px 0; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; border-top: 3px solid #d4dadf;">
+              <h1 style="margin: 0; font-size: 32px; font-weight: 700; letter-spacing: -1px; line-height: 48px;">Yêu Cầu Thay Đổi Email</h1>
+            </td>
+          </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+    <!-- end hero -->
+
+    <!-- start copy block -->
+    <tr>
+      <td align="center" bgcolor="#e9ecef">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+
+          <!-- start copy -->
+          <tr>
+            <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
+               <p style="margin: 0;">Gần đây bạn đã xác nhận thay đổi email<br>Vì thế chúng tôi yêu cầu bạn xác nhận thay đổi email trước khi thay đổi email cho bạn<br>
+			   Và Link xác nhận tồn tại trong 24h kể từ khi bạn yêu cầu<br>
+			   <b>Thông Tin Như Sau: </b></p>
+			   <ul class="list-inline">
+					<li>Tên đăng nhập:</li>
+					<li><b>[ACCOUNT]</b></li>
+				</ul>
+				  <ul class="list-inline">
+					<li>Email hiện tại:</li>
+					<li><b>[EMAILOLD]</b></li>
+				</ul>
+				
+				<ul class="list-inline">
+					<li>Email cần thay đổi</li>
+					<li><b>[EMAILNEWS]</b></li>
+				</ul>
+			
+            </td>
+          </tr>
+          <!-- end copy -->
+
+          <!-- start button -->
+          <tr>
+            <td align="left" bgcolor="#ffffff">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center" bgcolor="#ffffff" style="padding: 12px;">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="center" bgcolor="#CC7953" style="border-radius: 6px;">
+                          <a href="[URL]/[CHANGEMAIL]/[TOKEN]/[ACCOUNT]" target="_blank" style="display: inline-block; padding: 16px 36px; font-family: 'Merriweather', serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;">Xác thực</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end button -->
+
+           <!-- start copy -->
+          <tr>
+            <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Merriweather', serif; font-size: 16px; line-height: 24px;">
+              <p style="margin: 0;">Bạn cũng có thế xác thực bằng link dưới đây:</p>
+              <p style="margin: 0;"><a href="[URL]/[CHANGEMAIL]/[TOKEN]/[ACCOUNT]" target="_blank">[URL]/[CHANGEMAIL]/[TOKEN]/[ACCOUNT]</a></p>
+            </td>
+          </tr>
+          <!-- end copy -->
+
+          <!-- start copy -->
+          <tr>
+            <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
+              <p style="margin: 0;">[LOGO_TEXT]<br>[COPYRIGHT]</p>
+            </td>
+          </tr>
+          <!-- end copy -->
+
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+    <!-- end copy block -->
+
+    <!-- start footer -->
+    <tr>
+      <td align="center" bgcolor="#e9ecef" style="padding: 24px;">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+
+          <!-- start permission -->
+          <tr>
+            <td align="center" bgcolor="#e9ecef" style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+             <p style="margin: 0;">Bạn đã nhận được email này vì bạn đã xác nhận thay đổi email. Vui lòng xóa tin nhắn nếu bạn không yêu cầus</p>
+            </td>
+          </tr>
+          <!-- end permission -->
+
+          <!-- start unsubscribe -->
+          <tr>
+            <td align="center" bgcolor="#e9ecef" style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
+              <p style="margin: 0;">Đây là email tự động. Vui lòng không trả lời email này</p>
+            </td>
+          </tr>
+          <!-- end unsubscribe -->
+
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+    <!-- end footer -->
+
+  </table>
+  <!-- end body -->
+
+</body>
+</html>
